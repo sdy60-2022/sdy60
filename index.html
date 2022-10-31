@@ -1,102 +1,181 @@
 <!-- #######  YAY, I AM THE SOURCE EDITOR! #########-->
 <html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+    * {
+      box-sizing: border-box;
+    }
+    
+    /* Create two equal columns that floats next to each other */
+    .column {
+      float: left;
+      width: 50%;
+      padding: 10px;
+    }
+
+    .container {
+      /* height: 200px; */
+      position: relative;
+      /* border: 3px solid green; */
+    }
+
+    .vertical-center {
+      margin: 0;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%);
+    }
+    
+    /* Clear floats after the columns */
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    </style>
+  </head>
+
   <body style="background-color:powderblue;">
     <h1 style="color: #5e9ca0; text-align: center;">CV Collector </h1>
     <h2 style="color: #2e6c80;">This site is a part of EAP SDY exercise:</h2>
     <p>The goal of the exercise is to familiarize the users with the github and the way that team is managing the issues during the creation of the project. Every user have some type of roles in the organization and take part to specific task after an open issue.</p>
     <p>&nbsp;</p>
-    <p>&nbsp;</p>
-    <p><img style="display: block; margin-left: auto; margin-right: auto;" src="https://cdn.mos.cms.futurecdn.net/qTmvroik2NtHVGsfCHyyxF-1920-80.jpg.webp" alt="" width="304" height="234" />We work hard to take humans to the edge of the solar system and travel / explore new places. The project is very close to be a reality with the new plasma propulsion engine.</p>
-    <p><img style="display: block; margin-left: auto; margin-right: auto;" src="https://upload.wikimedia.org/wikipedia/commons/8/88/Vasimr.png" width="384" height="236" /></p>
-    <h2 style="color: #2e6c80; text-align: center;">Below is the CV from the people of community</h2>
-    <button type="submit" onclick="window.location.href='https://github.com/sdy60-2022';">Organization</button>
-    <p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>
-    <table class="editorDemoTable" style="border-style: solid; margin-left: auto; margin-right: auto;" border="solid"><caption>&nbsp;</caption>
-      <thead>
-        <tr>
-          <td>User Name</td>
-          <td>CV Link</td>
-          <td>GitHub Link</td>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>&nbsp;</td>
-          <td>&nbsp;</td>
-          <td>&nbsp;</td>
-        </tr>
-        <tr>
-          <td>&nbsp;</td>
-          <td>&nbsp;</td>
-          <td>&nbsp;</td>
-        </tr>
-        <tr>
-          <td>&nbsp;</td>
-          <td>&nbsp;</td>
-          <td>&nbsp;</td>
-        </tr>
-        <tr>
-        <td>&nbsp;</td>
-        <td>&nbsp;</td>
-        <td>&nbsp;</td>
-        </tr>
-        <tr>
-        <td>&nbsp;</td>
-        <td>&nbsp;</td>
-        <td>&nbsp;</td>
-        </tr>
-        <tr>
-        <td>&nbsp;</td>
-        <td>&nbsp;</td>
-        <td>&nbsp;</td>
-        </tr>
-        <tr>
-        <td>&nbsp;</td>
-        <td>&nbsp;</td>
-        <td>&nbsp;</td>
-        </tr>
-        <tr>
-        <td>&nbsp;</td>
-        <td>&nbsp;</td>
-        <td>&nbsp;</td>
-        </tr>
-        <tr>
-        <td>&nbsp;</td>
-        <td>&nbsp;</td>
-        <td>&nbsp;</td>
-        </tr>
-        <tr>
-        <td>&nbsp;</td>
-        <td>&nbsp;</td>
-        <td>&nbsp;</td>
-        </tr>
-        <tr>
-        <td>&nbsp;</td>
-        <td>&nbsp;</td>
-        <td>&nbsp;</td>
-        </tr>
-        <tr>
-        <td>&nbsp;</td>
-        <td>&nbsp;</td>
-        <td>&nbsp;</td>
-        </tr>
-        <tr>
-        <td>&nbsp;</td>
-        <td>&nbsp;</td>
-        <td>&nbsp;</td>
-        </tr>
-        <tr>
-        <td>&nbsp;</td>
-        <td>&nbsp;</td>
-        <td>&nbsp;</td>
-        </tr>
-        <tr>
-        <td>&nbsp;</td>
-        <td>&nbsp;</td>
-        <td>&nbsp;</td>
-        </tr>
-      </tbody>
-    </table>
+    <div class="row">
+      <div class="column">
+        <p><img style="display: block; margin-left: auto; margin-right: auto;" src="https://cdn.mos.cms.futurecdn.net/qTmvroik2NtHVGsfCHyyxF-1920-80.jpg.webp" alt="" width="304" height="234" /></p>
+      </div>
+    </div>
+    <div class="row">
+        <div class="column">
+          <p>We work hard to take humans to the edge of the solar system and travel / explore new places. The project is very close to be realised with the new plasma propulsion engine.</p>
+        </div>
+    </div>
+    <div class="row">
+      <div class="column">
+        <p><img style="display: block; margin-left: auto; margin-right: auto;" src="https://upload.wikimedia.org/wikipedia/commons/8/88/Vasimr.png" width="384" height="236" /></p>  
+      </div>
+    </div>
+    <div class="row">
+      <div class="column">
+        <h2 style="color: #2e6c80; text-align: center;">Below is the CV from the people of community</h2>
+      </div>
+    </div>
+    <!-- <div class="container">
+      <div class="vertical-center">
+        <button type="submit" onclick="window.location.href='https://github.com/sdy60-2022';" style="text-align: center;">Organization</button>
+      </div>
+    </div> -->
+    <!--START The table with the CV -->
+    <div class="row">
+      <div class="column">
+        <table class="editorDemoTable" style="border-style: solid; margin-left: auto; margin-right: auto;" border="solid"><caption>&nbsp;</caption>
+          <thead>
+            <tr>
+              <td>a/a</td>
+              <td>User Name</td>
+              <td>CV Link</td>
+              <td>GitHub Link</td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>&nbsp;</td>
+              <td>&nbsp;</td>
+              <td>&nbsp;</td>
+              <td>&nbsp;</td>
+            </tr>
+            <tr>
+              <td>&nbsp;</td>
+              <td>&nbsp;</td>
+              <td>&nbsp;</td>
+              <td>&nbsp;</td>
+            </tr>
+            <tr>
+              <td>&nbsp;</td>
+              <td>&nbsp;</td>
+              <td>&nbsp;</td>
+              <td>&nbsp;</td>
+            </tr>
+            <tr>
+              <td>&nbsp;</td>
+              <td>&nbsp;</td>
+              <td>&nbsp;</td>
+              <td>&nbsp;</td>
+            </tr>
+            <tr>
+              <td>&nbsp;</td>
+              <td>&nbsp;</td>
+              <td>&nbsp;</td>
+              <td>&nbsp;</td>
+            </tr>
+            <tr>
+              <td>&nbsp;</td>
+              <td>&nbsp;</td>
+              <td>&nbsp;</td>
+              <td>&nbsp;</td>
+            </tr>
+            <tr>
+              <td>&nbsp;</td>
+              <td>&nbsp;</td>
+              <td>&nbsp;</td>
+              <td>&nbsp;</td>
+            </tr>
+            <tr>
+              <td>&nbsp;</td>
+              <td>&nbsp;</td>
+              <td>&nbsp;</td>
+              <td>&nbsp;</td>
+            </tr>
+            <tr>
+              <td>&nbsp;</td>
+              <td>&nbsp;</td>
+              <td>&nbsp;</td>
+              <td>&nbsp;</td>
+            </tr>
+            <tr>
+              <td>&nbsp;</td>
+              <td>&nbsp;</td>
+              <td>&nbsp;</td>
+              <td>&nbsp;</td>
+            </tr>
+            <tr>
+              <td>&nbsp;</td>
+              <td>&nbsp;</td>
+              <td>&nbsp;</td>
+              <td>&nbsp;</td>
+            </tr>
+            <tr>
+              <td>&nbsp;</td>
+              <td>&nbsp;</td>
+              <td>&nbsp;</td>
+              <td>&nbsp;</td>
+            </tr>
+            <tr>
+              <td>&nbsp;</td>
+              <td>&nbsp;</td>
+              <td>&nbsp;</td>
+              <td>&nbsp;</td>
+            </tr>
+            <tr>
+              <td>&nbsp;</td>
+              <td>&nbsp;</td>
+              <td>&nbsp;</td>
+              <td>&nbsp;</td>
+            </tr>
+            <!-- START Button -->
+            <tr>
+              <th colspan="4"><button type="submit" onclick="window.location.href='https://github.com/sdy60-2022';" style="text-align: center;">Go to Organization</button></th>
+            </tr>
+            <!-- STOP Button -->
+          </tbody>
+        </table>
+        <!--STOP The table with the CV -->
+      </div>
+    </div>
+    
     <p><strong>&nbsp;</strong></p>
     <p><strong>&nbsp;</strong></p>
   </body>
